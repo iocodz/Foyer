@@ -48,7 +48,7 @@ class BedRoom extends Component{
                         <Img src="/assets/dormitorio/sister.png" visible="true" cl="sister" cl2="fadeIn"  /> 
                         <div class="nav">
                             <ul>
-                                <li>Hermana: Felicidades loca pasaste el nivel vete pal patio a buscar algo pierdete </li>
+                                <li>Abuelo: Hogar no es solo la casa donde vivimos, es un lugar donde nos sentimos seguros. Gracias por recoger el reguero!!</li>
                                 <li><button onClick={this.props.move}> Next </button></li>
                             </ul>
                         </div>  

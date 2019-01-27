@@ -44,14 +44,14 @@ class Kitchen extends Component{
     					<Img src="/assets/Kitchen/sister.png" visible="true" cl="sister" cl2="fadeIn" /> 
     					<div class="nav">
 							<ul>
-								<li>Hermana: Felicidades loca pasaste el nivel vete pal patio a buscar algo pierdete </li>
+								<li>Hermana: Encontraste mi almohada, gracias hace tiempo la había perdido. Creo que te estaban llamando de la terraza. </li>
 								<li><button onClick={this.props.move}> Next </button></li>
 							</ul>
 						</div>	
 	    			</div>
 	    		}
     			{this.state.cont &&
-	    		<div class="Zona Kitchen">
+	    		<div class="Zona Kitchen" onClick={this.props.SubClick}>
 	    			{ this.state.objects.map( ([ visible, src, name ]) => (
 	    					<a onClick={ (e) => this.handleState(src) }>
 		    					<Img src={src} visible={visible} cl={name}  /> 

@@ -9,6 +9,7 @@ class Garden extends Component{
         this.state = {
         	background: 'route',
         	cont: 11,
+        	clicks: 0,
         	objects: [
         		[true, '/assets/objects/bota5.png', 'bota5', 'Bota'],
         		[true, '/assets/objects/huevos.png', 'huevos', 'Huevos'],
@@ -48,7 +49,7 @@ class Garden extends Component{
     					<Img src="/assets/Garden/sister.png" visible="true" cl="sister" cl2="fadeIn" /> 
     					<div class="nav">
 							<ul>
-								<li>Hermana: Felicidades loca pasaste el nivel vete pal patio a buscar algo pierdete </li>
+								<li>Hermano: Creo que el abuelo te llama. </li>
 								<li><button onClick={this.props.move}> Next </button></li>
 							</ul>
 						</div>	
